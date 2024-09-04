@@ -1,11 +1,12 @@
 {
   "name": "taipowertrackbackend",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "cross-env BASE=runtime nuxt --hostname 0.0.0.0 --port 8001",
     "uat": "cross-env BASE=uat nuxt --hostname 0.0.0.0 --port 8001",
-    "build:develop": "cross-env BASE=develop nuxt build",
+    "prod": "cross-env BASE=ntpc3 nuxt --hostname 0.0.0.0 --port 8001",
+    "build:uat": "cross-env BASE=uat nuxt build",
     "build:stage": "cross-env BASE=stage nuxt build",
     "build:ntpc0": "cross-env BASE=ntpc0 nuxt build",
     "build:ntpc1": "cross-env BASE=ntpc1 nuxt build",
