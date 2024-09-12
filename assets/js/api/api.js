@@ -36,6 +36,11 @@ axios.interceptors.response.use((response) => {
         message: res.message,
         type: 'error',
       });
+    } else {
+      window.$nuxt.$message({
+        message: res.message,
+        type: 'error',
+      });
     }
   }
 

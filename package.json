@@ -1,6 +1,6 @@
 {
   "name": "taipowertrackbackend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "dev": "cross-env BASE=runtime nuxt --hostname 0.0.0.0 --port 8001",
